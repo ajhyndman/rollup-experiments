@@ -26,6 +26,7 @@ export default {
       extensions: [".mjs", ".cjs", ".js", ".json"],
       preferBuiltins: false,
       moduleDirectories: ["node_modules"],
+      dedupe: ["history"],
     }),
 
     // Expands env variables.

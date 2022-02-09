@@ -7,7 +7,7 @@ import ReactDOM from "react-dom";
 
 const customHistory = createHistory();
 
-console.log(typeof createLocation);
+console.log(createLocation());
 
 const App = h(BrowserRouter, { history: customHistory }, [
   h(Route, { key: "home", exact: true, path: "/" }, [

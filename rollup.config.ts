@@ -25,7 +25,10 @@ export default {
       modulesOnly: false,
       extensions: [".mjs", ".cjs", ".js", ".json"],
       preferBuiltins: false,
-      moduleDirectories: ["node_modules"],
+      moduleDirectories: [
+        "node_modules",
+        process.cwd() + "/bazel/node_modules",
+      ],
     }),
 
     // Expands env variables.

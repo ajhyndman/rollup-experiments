@@ -1,4 +1,5 @@
 node_modules
+bazel
 
 # build output
 bundle.js

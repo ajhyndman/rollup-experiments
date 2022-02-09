@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "history": "3.3.0",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
+    "react-router": "5.2.0",
+    "react-router-dom": "5.2.0"
+  }
+}
